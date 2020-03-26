@@ -1,5 +1,7 @@
 const AIRTABLE_URT = 'https://api.airtable.com/v0';
+// API KEY from https://airtable.com/account
 const API_KEY = 'your_api_key';
+// BASE ID from https://airtable.com/api
 const BASE_ID = 'your_base_id';
 
 // Fetch is the way we call api end-points
