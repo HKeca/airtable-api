@@ -1,4 +1,4 @@
-const AIRTABLE_URT = 'https://api.airtable.com/v0';
+const AIRTABLE_URL = 'https://api.airtable.com/v0';
 // API KEY from https://airtable.com/account
 const API_KEY = 'your_api_key';
 // BASE ID from https://airtable.com/api
@@ -9,7 +9,7 @@ const BASE_ID = 'your_base_id';
 
 // First argument passed is just the url we want to call,
 // I separated the url up into variable to make it easier to read
-fetch(`${AIRTABLE}/${BASE_ID}/Stories`, {
+fetch(`${AIRTABLE_URL}/${BASE_ID}/Stories`, {
   // Setting the headers options because we need to specify the api key
   headers: {
     'Authorization': `Bearer ${API_KEY}`
